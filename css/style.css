@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(186, 186, 186);
+}
+.oddnames{
+    color: black;
+    font-size: 30px;
+    font-weight:700;
+    margin-top: 15px;
+    text-align: center;
+}
+.evennames{
+    color: white;
+    font-size: 30px;
+    font-weight:700;
+    margin-top: 15px;
+    text-align: center;
+}
+.div1{
+    width: 200px;
+    height: 70px;
+    top: 0%;
+    left: 0%;
+    background-color: red;
+    animation-name: change1;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    position: absolute;
+}
+@keyframes change1{
+    from{
+        top: 0%;
+        left: 0%;
+
+    }
+    to{
+        top: 0%;
+        left: 1350px;
+
+    }
+
+}
+.div2{
+    width: 200px;
+    height: 70px;
+    top: 80px;
+    right: 0%;
+    background-color: black;
+    animation-name: change2;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    position: absolute;
+}
+@keyframes change2{
+    from{
+        top: 80px;
+        left: 0%;
+
+    }
+    to{
+        top: 80px;
+        left: 1350px;
+
+    }
+
+}
+.div3{
+    width: 200px;
+    height: 70px;
+    top: 160px;
+    left: 0%;
+    background-color: red;
+    animation-name: change3;
+    animation-delay: 4s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    position: absolute;
+}
+ @keyframes change3{
+    from{
+        top: 160px;
+        left: 0%;
+
+    }
+    to{
+        top: 160px;
+        left: 1350px;
+
+    } 
+
+}
+.div4{
+    width: 200px;
+    height: 70px;
+    top: 240px;
+    right: 0%;
+    background-color: black;
+    animation-name: change4;
+    animation-delay: 6s;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    position: absolute;
+}
+ @keyframes change4{
+    from{
+        top: 240px;
+        left: 0%;
+
+    }
+    to{
+        top: 240px;
+        left: 1350px;
+
+    } 
+
+}
+.div5{
+    width: 200px;
+    height: 70px;
+    top: 320px;
+    left: 0%;
+    background-color: red;
+    animation-name: change5;
+    animation-delay: 8s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    position: absolute;
+}
+ @keyframes change5{
+    from{
+        top: 320px;
+        left: 0%;
+
+    }
+    to{
+        top: 320px;
+        left: 1350px;
+
+    } 
+
+}
+.div6{
+    width: 200px;
+    height: 70px;
+    top: 400px;
+    right: 0%;
+    background-color: black;
+    animation-name: change6;
+    animation-delay: 10s;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    position: absolute;
+}
+ @keyframes change6{
+    from{
+        top: 400px;
+        left: 0%;
+
+    }
+    to{
+        top: 400px;
+        left: 1350px;
+
+    } 
+
+}
+.div7{
+    width: 200px;
+    height: 70px;
+    top: 480px;
+    left: 0%;
+    background-color: red;
+    animation-name: change7;
+    animation-delay: 12s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    position: absolute;
+}
+ @keyframes change7{
+    from{
+        top: 480px;
+        left: 0%;
+
+    }
+    to{
+        top: 480px;
+        left: 1350px;
+
+    } 
+
+}
+.div8{
+    width: 200px;
+    height: 70px;
+    top: 560px;
+    right: 0%;
+    background-color: black;
+    animation-name: change8;
+    animation-delay: 14s;
+    animation-duration: 2s;
+    animation-direction: reverse;
+    animation-timing-function: linear;
+    position: absolute;
+}
+@keyframes change8{
+    from{
+        top: 560px;
+        left: 0%;
+
+    }
+    to{
+        top: 560px;
+        left: 1350px;
+
+    }
+
+}
